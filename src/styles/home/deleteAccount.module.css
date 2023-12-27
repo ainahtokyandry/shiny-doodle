@@ -1,0 +1,38 @@
+.root {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--Grayscale-N200, #e3e3e4);
+    width: 100%;
+}
+
+.root h5 {
+    color: #000;
+    font-family: Gilroy-SemiBold;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.descriptionWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.descriptionWrapper p {
+    color: var(--Grayscale-N600, #4c4c55);
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.action {
+    color: var(--Additional-Colors-Red, #f25773);
+    font-family: Gilroy-SemiBold;
+    font-size: 15px;
+    font-weight: 400;
+}

@@ -28,7 +28,7 @@
                     {
                         "groups": [
                             // `react` first, `next` second, then packages starting with a character
-                            ["^react$", "^next"],
+                            ["^react$"],
                             ["^[a-z]"],
                             // Packages starting with `@`
                             ["^@"],

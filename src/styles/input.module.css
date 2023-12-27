@@ -1,0 +1,37 @@
+.root {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.root input {
+    display: flex;
+    height: 48px;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 4px;
+    border: 1px solid var(--Grayscale-N200, #e3e3e4);
+    background: var(--Grayscale-White, #fff);
+    color: var(--Grayscale-N500, #595964);
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.root input:focus-visible {
+    outline: none;
+}
+
+.root label {
+    position: absolute;
+    left: 8px;
+    top: -5px;
+    padding: 0px 4px;
+    background: var(--Grayscale-White, #fff);
+    color: var(--Grayscale-N600, #4c4c55);
+    font-family: Gilroy-SemiBold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+}

@@ -1,0 +1,30 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.root p {
+    color: var(--Grayscale-N600, #4c4c55);
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.root hr {
+    border: 0;
+    border-top: 1px solid #e3e3e4;
+}
+
+.links {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.links li {
+    color: var(--Greys-GS500, #595964);
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+    font-weight: 400;
+}

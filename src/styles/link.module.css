@@ -1,0 +1,5 @@
+.root {
+    color: var(--Primary-B400-Default, #1688fe);
+    font-size: 15px;
+    font-weight: 400;
+}

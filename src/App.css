@@ -1,42 +1,51 @@
+:root {
+    --Grayscale-N100: #ececed;
+    --Grayscale-White: #fff;
+    --Grayscale-N900: #14141f;
+    --Grayscale-N600: #4c4c55;
+    --Secondary-G400-Default: #008b5d;
+    --Grayscale-N200: #e3e3e4;
+    --Primary-B400-Default: #1688fe;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("assets/gilroy/Gilroy-Medium.ttf");
+}
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("assets/gilroy/Gilroy-Bold.ttf");
+}
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url("assets/gilroy/Gilroy-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("assets/gilroy/Gilroy-Regular.ttf");
+}
+
+html,
+body,
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    background-color: #fff;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy-Medium";
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex-1 {
+    flex: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+i {
+    font-style: normal;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+ul {
+    list-style: none;
 }
